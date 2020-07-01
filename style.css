@@ -1,0 +1,105 @@
+body {
+    font-family: 'Comfortaa', cursive, sans-serif;
+    margin: 0px;
+    text-align: justify;
+}
+h1 {
+    color: rgb(177, 5, 177);
+    font-family: 'Krona One', sans-serif;
+}
+p {
+    color: rgb(94, 92, 92);
+    font-weight: 600;
+}
+a {
+    color: rgb(9, 90, 182);
+    text-decoration: none;
+}
+img {
+    width: 85%;
+}
+section {
+    height: 700px;
+    clear: left;
+}
+#header-bg {
+    margin-left: 2%;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#biography-bg {
+    margin-right: 2%;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latest-work-bg {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+}
+.link-button {
+    color: rgb(223, 213, 213);
+    font-weight: 700;
+    border: 1px solid rgb(153, 153, 153);
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-image: linear-gradient(45deg, rgb(82, 97, 236), blue);
+}
+.float {
+    float: left;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.my-latest-work {
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+}
+.box-shadow {
+    box-shadow: 10px 10px 40px dimgray;
+    height: 350px;
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, white, rgb(153, 153, 153));
+    padding-top: 1.5%;
+}
+#header {
+    margin-top: 6%;
+}
+#biography {
+    margin-top: 12%;
+}
+#h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 6%;
+}
+#center {
+    text-align: center;
+    width: 35%;
+    height: 250px;
+    margin-left: 31%;
+    margin-bottom: 10%;
+    padding: 2%;
+    background-image: linear-gradient(180deg, white, rgb(153, 153, 153));
+}
+#contact {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 370px;
+}
+footer {
+    margin-top: 17%;
+}
